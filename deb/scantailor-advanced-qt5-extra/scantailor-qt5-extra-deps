@@ -1,0 +1,12 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/d/double-conversion/libdouble-conversion1_2.0.1-4ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5core5a_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5dbus5_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5network5_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb-xinerama0_1.13-1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5gui5_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5widgets5_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtsvg-opensource-src/libqt5svg5_5.9.5-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5opengl5_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.9.5+dfsg-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qttranslations-opensource-src/qttranslations5-l10n_5.9.5-0ubuntu1_all.deb

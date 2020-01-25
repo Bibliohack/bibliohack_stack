@@ -1,0 +1,5 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/gconf/gconf2-common_3.2.6-4ubuntu1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/gconf/libgconf-2-4_3.2.6-4ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/gconf/gconf-service-backend_3.2.6-4ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/gconf/gconf-service_3.2.6-4ubuntu1_amd64.deb

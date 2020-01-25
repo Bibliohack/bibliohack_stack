@@ -1,0 +1,20 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/a/autotools-dev/autotools-dev_20180224.1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/libc/libcanberra/libcanberra-gtk0_0.30-5ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/libc/libcanberra/libcanberra-gtk-module_0.30-5ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g-dev_1.2.11.dfsg-0ubuntu2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng-dev_1.6.34-1ubuntu0.18.04.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/f/freetype/libfreetype6-dev_2.8.1-2ubuntu2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libt/libtool/libltdl-dev_2.4.6-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lua5.1/liblua5.1-0_5.1.5-8.1build2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/n/ncurses/libtinfo-dev_6.1-1ubuntu1.18.04_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/readline/libreadline-dev_7.0-3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lua5.1/liblua5.1-0-dev_5.1.5-8.1build2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/l/lua5.2/liblua5.2-0_5.2.4-1.1build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/l/lua5.2/liblua5.2-dev_5.2.4-1.1build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng-tools_1.6.34-1ubuntu0.18.04.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libt/libtool/libtool_2.4.6-2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/libt/libtool/libtool-bin_2.4.6-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lua5.1/lua5.1_5.1.5-8.1build2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lua5.2/lua5.2_5.2.4-1.1build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/p/pkg-config/pkg-config_0.29.1-0ubuntu2_amd64.deb

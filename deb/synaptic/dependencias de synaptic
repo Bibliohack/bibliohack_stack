@@ -1,0 +1,5 @@
+aptitude
+aptitude aptitude-common libcwidget3v5 libsigc++-2.0-0v5
+
+synaptic
+docbook-xml libept1.5.0 libgtk2-perl libpango-perl librarian0 rarian-compat sgml-base sgml-data synaptic xml-core

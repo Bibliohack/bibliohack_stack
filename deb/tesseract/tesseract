@@ -1,0 +1,19 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/g/giflib/libgif7_5.1.4-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/libopenjp2-7_2.3.0-1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/leptonlib/liblept5_1.75.3-3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract/libtesseract4_4.00~git2288-10f4998a-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-eng_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-osd_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract/tesseract-ocr_4.00~git2288-10f4998a-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-cat_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-deu_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-ell_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-fra_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-ita_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-lat_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-nld_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-por_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-rus_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-spa_4.00~git24-0e00fe6-1.2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/t/tesseract-lang/tesseract-ocr-spa-old_4.00~git24-0e00fe6-1.2_all.deb

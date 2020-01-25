@@ -1,0 +1,12 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/e/evince/libevdocument3-4_3.28.4-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/e/evince/evince-common_3.28.4-0ubuntu1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/e/evince/libevview3-3_3.28.4-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/e/evince/evince_3.28.4-0ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/f/fbi/exiftran_2.10-2ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/exiv2/exiv2_0.25-3.1ubuntu0.18.04.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/geeqie/geeqie-common_1.4-3_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/g/geeqie/geeqie_1.4-3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lensfun/liblensfun-data-v1_0.3.2-4_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/l/lensfun/liblensfun1_0.3.2-4_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/u/ufraw/ufraw-batch_0.22-3_amd64.deb

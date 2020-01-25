@@ -1,0 +1,8 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/efl/libeina1_1.8.6-2.5build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/efl/libeet1_1.8.6-2.5build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/evas-loaders/libevas-loaders_1.8.1-2build3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/efl/libevas1_1.8.6-2.5build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/efl/libevas1-engines-x_1.8.6-2.5build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/exactimage/edisplay_1.0.1-1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/e/exactimage/exactimage_1.0.1-1_amd64.deb

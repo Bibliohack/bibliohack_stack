@@ -1,0 +1,26 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/f/fonts-lato/fonts-lato_2.0-2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/j/javascript-common/javascript-common_11_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmpxx4ldbl_6.1.2+dfsg-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmp-dev_6.1.2+dfsg-2_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/j/jquery/libjs-jquery_3.2.1-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/rubygems-integration/rubygems-integration_1.11_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby2.5/ruby2.5_2.5.1-1ubuntu1.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-defaults/ruby_2.5.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/rake/rake_12.3.1-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-did-you-mean/ruby-did-you-mean_1.2.0-2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-minitest/ruby-minitest_5.10.3-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-net-telnet/ruby-net-telnet_0.1.1-2_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-power-assert/ruby-power-assert_0.3.0-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-test-unit/ruby-test-unit_3.2.5-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby2.5/libruby2.5_2.5.1-1ubuntu1.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby2.5/ruby2.5-doc_2.5.1-1ubuntu1.1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-defaults/ri_2.5.1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby2.5/ruby2.5-dev_2.5.1-1ubuntu1.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/r/ruby-defaults/ruby-dev_2.5.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-fast-xs/ruby-fast-xs_0.8.0-3build10_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-defaults/ruby-full_2.5.1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-hpricot/ruby-hpricot_0.8.6-6ubuntu3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-pkg-config/ruby-pkg-config_1.2.9-1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-nokogiri/ruby-nokogiri_1.8.2-1build1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/r/ruby-rmagick/ruby-rmagick_2.16.0-4_amd64.deb

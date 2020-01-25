@@ -1,0 +1,20 @@
+#!/bin/sh
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/libm/libmng/libmng2_2.0.2-0ubuntu3_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/m/mysql-defaults/mysql-common_5.8+1.0.4_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/m/mysql-5.7/libmysqlclient20_5.7.24-0ubuntu0.18.04.1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/qtcore4-l10n_4.8.7+dfsg-7ubuntu1_all.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqtcore4_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-xml_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqtdbus4_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/main/q/qtchooser/qtchooser_64-ga1b6736-5_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/qdbus_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-dbus_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-network_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-script_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-sql_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-xmlpatterns_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqtgui4_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-declarative_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt4-x11/libqt4-sql-mysql_4.8.7+dfsg-7ubuntu1_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/q/qt-at-spi/qt-at-spi_0.4.0-8_amd64.deb
+wget -c http://ar.archive.ubuntu.com/ubuntu/pool/universe/s/scantailor/scantailor_0.9.12.2-3_amd64.deb

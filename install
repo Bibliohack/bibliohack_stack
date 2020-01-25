@@ -1,0 +1,42 @@
+#!/bin/bash
+
+OSNAME=`lsb_release -is`
+CODENM=`lsb_release -cs`
+RELEASN=`lsb_release -rs`
+
+#if [[ "$RELEASN" =~ ^'18.' ]] && [ "$OSNAME" == 'Ubuntu' ]; then
+if [ "$RELEASN" == '18.04' ] && [ "$OSNAME" == 'Ubuntu' ]; then
+   : 
+else
+	echo "Este instalador no funciona en $OSNAME $RELEASE"
+	echo "Debe instalarse en Ubuntu 18.04 bionic"
+	exit 1
+fi
+
+BIBLIOHACK_ORIG=$(dirname "$0")
+cd "$BIBLIOHACK_ORIG"
+BIBLIOHACK_ORIG="$(pwd -P)"
+cd "$BIBLIOHACK_ORIG"
+
+BIBLIOHACK_DIR=/opt/bibliohack
+
+[[ -d "$BIBLIOHACK_DIR" ]] || {
+	sudo mkdir "$BIBLIOHACK_DIR" || exit 1
+}
+sudo chmod a+rw "$BIBLIOHACK_DIR" || exit 1
+
+if [[ -f "$BIBLIOHACK_ORIG/bibliohack_installer.tar.gz" ]]; then
+	cp "$BIBLIOHACK_ORIG/bibliohack_installer.tar.gz" "$BIBLIOHACK_DIR/" || exit 1
+	cd "$BIBLIOHACK_DIR"
+	tar xzvf bibliohack_installer.tar.gz
+	[[ -d "/$BIBLIOHACK_DIR/bibliohack_installer" ]] || { echo "error"; exit 1; }
+else
+   echo "no existe bibliohack_installer.tar.gz en el directorio de instalación '$BIBLIOHACK_ORIG'"
+	exit 1
+fi
+
+"$BIBLIOHACK_DIR/bibliohack_installer/install_bibliohack-ubuntu1804.sh" "$BIBLIOHACK_ORIG" || { 
+	echo "No se puedo ejecutar el instalador"
+	exit 1
+}
+exit 0
