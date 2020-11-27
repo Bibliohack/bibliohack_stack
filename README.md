@@ -4,7 +4,7 @@ Este repositorio contiene el stack de software para digitalización y posproceso
 
 Las aplicaciones se instalan en `/opt/bibliohack`
 
-## Instalar
+## Instalar (Ubuntu 18.04)
 
 descargar el paquete de instalación desde:
 
