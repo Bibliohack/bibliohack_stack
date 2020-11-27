@@ -1,0 +1,23 @@
+if [[ -d "/tmp/tecgraf" ]]
+ then
+	rm -r /tmp/tecgraf || exit 1
+fi
+
+mkdir /tmp/tecgraf
+
+cd tecgraf/
+
+for file in `ls`
+do 
+	DEST=`basename $file .tar.gz`
+	mkdir /tmp/tecgraf/$DEST && tar xzvf $file -C /tmp/tecgraf/$DEST 
+	TDIR=`pwd`
+   cd /tmp/tecgraf/$DEST && sudo bash uninstall
+   cd $TDIR
+done
+
+rm -r /tmp/tecgraf
+
+exit 0
+
+
