@@ -21,7 +21,7 @@ ejecutar el script de instalación:
 
 El script pedira credenciales de sudo cuando lo necesite.
 
-Una vez finalizada la instalación, ya se puede borrar `bibiohack_install`
+Una vez finalizada la instalación, ya se puede borrar `bibiohack_install`. Lo ideal es mantener una copia de esta carpeta en una Memoria USB.
 
 **Rutas de acceso a los programas**
 
