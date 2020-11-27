@@ -1,9 +1,11 @@
 # Bibliohack Stack 
 
 Este repositorio contiene el stack de software y las dependencias necesarias para instalar 
-el software de digitalización y post-proceso de Bibliohack.
+el software de digitalización y post-proceso de Bibliohack. 
 
-Las aplicaciones del paquete se instalarán en `/opt/bibliohack`
+Puede leer una referencia rápida de los componentes del stack [en esta página](http://codex.bibliohack.org/Bibliohack_Stack/).
+
+Las aplicaciones de bibliohack stack se instalan en `/opt/bibliohack`
 
 ## Instalar (solo para Ubuntu 18.04)
 
