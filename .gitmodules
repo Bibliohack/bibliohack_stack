@@ -1,0 +1,3 @@
+[submodule "bibliohack_installer"]
+	path = bibliohack_installer
+	url = https://github.com/Bibliohack/bibliohack_installer.git
