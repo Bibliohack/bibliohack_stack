@@ -1,10 +1,11 @@
 # Bibliohack Stack 
 
-Este repositorio contiene el stack de software para digitalización y posproceso de Bibliohack
+Este repositorio contiene el stack de software y las dependencias necesarias para instalar 
+el software de digitalización y post-proceso de Bibliohack.
 
-Las aplicaciones se instalan en `/opt/bibliohack`
+Las aplicaciones del paquete se instalarán en `/opt/bibliohack`
 
-## Instalar (Ubuntu 18.04)
+## Instalar (solo para Ubuntu 18.04)
 
 descargar el paquete de instalación desde:
 
@@ -19,9 +20,12 @@ ejecutar el script de instalación:
     cd bibliohack_install
     bash install
 
-El script pedira credenciales de sudo cuando lo necesite.
+El script pedirá credenciales de sudo cuando lo necesite.
 
-Una vez finalizada la instalación, ya se puede borrar `bibiohack_install`. Lo ideal es mantener una copia de esta carpeta en una Memoria USB.
+Una vez finalizada la instalación, la carpeta `bibliohack_install` ya no es necesaria y se puede borrar. 
+Lo ideal es mantener una copia de esta carpeta en una Memoria USB.
+
+Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://codex.bibliohack.org/Bibliohack_instalador/>
 
 **Rutas de acceso a los programas**
 
@@ -32,13 +36,24 @@ Una vez finalizada la instalación, ya se puede borrar `bibiohack_install`. Lo i
 - Pdfbeads: `/opt/bibliohack/components/pdfbeads-kopi/bin/pdfbeads` 
 - Tesseract: `tesseract`
 
+**Instalación de los componentes en forma manual**
+
+* Scantailor en todas sus versiones: <http://codex.bibliohack.org/scan_tailor/>
+* Tesseract OCR: <http://codex.bibliohack.org/tesseract-ocr/>
+* PDFbeads: <http://codex.bibliohack.org/pdfbeads/> (`pdfbeads-kopi` <https://github.com/Bibliohack/pdfbeads-kopi> es un fork de pdfbeads que se instala en las ultimas versiones de Ubuntu/Debian)
+* CHDKPTP: <http://codex.bibliohack.org/chdkptp/> (extensión Picture Transfer Protocol para Canon Hack Development Kit <https://app.assembla.com/wiki/show/chdkptp>)
+* CHDK: recursos para la instalación de CHDK <http://codex.bibliohack.org/CHDK/>
+
 ## Problemas con librerias Tecgraf
 
 En caso de haber borrado accidentalmente el directorio `/opt/bibliohack`, el script `install` no podrá
-volver a instalar las aplicaciones hasta que no se desinstalen del sistema las librerías **Tecgraf**
+volver a instalar las aplicaciones hasta que no se desinstalen del sistema las librerías **Tecgraf** 
+(y para desinstalar estas librerias son necesarios los scripts de desinstalción de Tecgraf que quedan 
+guardados en `/opt/bibliohack`)
 
-Para esto ejecute `uninstall_tecgraf_libs`. En caso de tener las librerías Tecgraf instaladas en el 
-sistema por otra aplicación, en versiones diferentes, este script no podrá borralas-
+`uninstall_tecgraf_libs` intenta desinstalar Tecgraf con los paquetes disponibles en el repositorio. 
+En caso de tener las librerías Tecgraf instaladas en el sistema instaladas manualmente o por otra aplicación, 
+en versiones diferentes, este script no podrá borralas y debe desinstalarlas a mano.
 
 ## Generar el paquete de instalación
 
