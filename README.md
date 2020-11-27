@@ -2,15 +2,15 @@
 
 Este repositorio contiene el stack de software para digitalización y posproceso de Bibliohack
 
-Es script de instalación instalará las aplicaciones en `/opt/bibliohack`
+El script instalará las aplicaciones en `/opt/bibliohack`
 
 ### Instalar
 
-descargar el paquete de instalacion desde:
+descargar el paquete de instalación desde:
 
     wget http://files.bibliohack.org/bibliohack_install.tar.gz
 
-descomprimir:
+descomprimir el archivo descargado:
 
     tar xzvf bibliohack_install.tar.gz
 
@@ -19,7 +19,7 @@ ejecutar el script de instalación:
     cd bibliohack_install
     bash install
 
-el script pedira credenciales de sudo cuando lo necesite
+El script pedira credenciales de sudo cuando lo necesite.
 
 Una vez finalizada la instalación, ya se puede borrar `bibiohack_install`
 
@@ -53,8 +53,21 @@ sistema por otra aplicación, en versiones diferentes, este script no podrá bor
 
 #### Creación del paquete de instalacióm
 
+Instalar *Git Large File Storage (LFS)* en el sistema. Más info en <https://git-lfs.github.com/>
+
+Descargar e instalar LFS:
+
+    curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+    sudo apt-get install git-lts
+    git install lts
+
+clonar este repositorio recursivamnte:
+
+    git clone --recursive https://github.com/Bibliohack/bibliohack_stack bibliohack_stack
+    cd bibliohack_stack
+    
 ejecutar
 
-    .build_package
+    bash .build_package
 
-El script copia los archivos, omite las carpetas .git y comprime en tar.gz
+El script copia los archivos, omite las carpetas .git y otros archivos de git, y finalmente comprime el paquete en tar.gz
