@@ -1,3 +1,5 @@
+#!/bin/bash
+
 bpwd=`pwd`
 bdir=`basename $bpwd`
 
@@ -22,11 +24,16 @@ cp -rp "./$bdir" "./$dest"
 cd "./$dest"
 
 sudo rm -r ./bibliohack_installer/.git || { echo "no se pudo borrar ./bibliohack_installer/.git"; exit 1; }
-sudo rm -r ./.git || { echo "no se pudo borrar ./.git"; exit 1; }
-
+rm ./bibliohack_installer/.gitignore || exit 1;
 tar czvf bibliohack_installer.tar.gz bibliohack_installer/ || exit 1
 
 rm -r bibliohack_installer/ || exit 1
+
+sudo rm -r ./.git || { echo "no se pudo borrar ./.git"; exit 1; }
+rm .gitmodules || exit 1
+rm .gitignore || exit 1
+rm .gitattributes || exit 1
+rm .build_package || exit 1
 
 cd ..
 
