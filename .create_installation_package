@@ -1,0 +1,31 @@
+bpwd=`pwd`
+bdir=`basename "$bpwd"`
+
+cd ..
+
+dest=bibliohack_install
+
+if [[ "$dest" == "$bdir" ]]; then
+   echo "error: el directorio actual tiene el mismo nombre del directorio de destino!"
+   exit 1
+fi
+
+[[ -d "$dest" ]] && { echo "'$dest' ya existe!"; exit 1; }
+
+echo "copiando ./$bdir ./$dest ..."
+
+cp -rp "./$bdir" "./$dest"
+
+cd "./$dest"
+
+sudo rm -r ./bibliohack_installer/.git || { echo "no se pudo borrar './bibliohack_installer/.git'"; exit 1; }
+sudo rm -r ./.git || { echo "no se pudo borrar './.git'"; exit 1; }
+
+tar czvf bibliohack_installer.tar.gz bibliohack_installer/ || exit 1
+
+rm -r bibliohack_installer/ || exit 1
+
+cd ..
+
+tar czvf ${dest}.tar.gz ${dest} && { echo -e "\n\npaquete creado con exito!"; exit 0; }
+
