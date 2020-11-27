@@ -1,8 +1,8 @@
-## Bibliohack Stack 
+# Bibliohack Stack 
 
 Este repositorio contiene el stack de software para digitalización y posproceso de Bibliohack
 
-El script instalará las aplicaciones en `/opt/bibliohack`
+Las aplicaciones se instalan en `/opt/bibliohack`
 
 ## Instalar
 
@@ -40,7 +40,7 @@ volver a instalar las aplicaciones hasta que no se desinstalen del sistema las l
 Para esto ejecute `uninstall_tecgraf_libs`. En caso de tener las librerías Tecgraf instaladas en el 
 sistema por otra aplicación, en versiones diferentes, este script no podrá borralas-
 
-## Creación del paquete de instalacióm
+## Generar el paquete de instalación
 
 Instalar *Git Large File Storage (LFS)* en el sistema. Más info en <https://git-lfs.github.com/>
 
