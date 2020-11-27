@@ -1,6 +1,8 @@
 bpwd=`pwd`
 bdir=`basename "$bpwd"`
 
+if [[ -d "./bibliohack_installer" ]] || {echo "debe clonar el repositorio bibliohack_installer dentro de este repositorio"; exit 1;}
+
 cd ..
 
 dest=bibliohack_install
