@@ -1,33 +1,32 @@
 # Bibliohack Stack 
 
-Este repositorio contiene el stack de software y las dependencias necesarias para instalar 
-el software de digitalización y post-proceso de Bibliohack. 
+Este repositorio contiene el stack de software y las dependencias necesarias para instalar el software de digitalización y post-proceso de Bibliohack. 
 
 Puede leer una referencia rápida de los componentes del stack [en esta página](http://codex.bibliohack.org/Bibliohack_Stack/).
 
-Las aplicaciones de bibliohack stack se instalan en `/opt/bibliohack`
+**Las aplicaciones de bibliohack stack que se gestionan por fuera de APT se instalarán en `/opt/bibliohack`**
 
 ## Instalar (solo para Ubuntu 18.04)
 
 descargar el paquete de instalación desde:
 
+    cd ~
     wget http://files.bibliohack.org/bibliohack_install.tar.gz
 
 descomprimir el archivo descargado:
 
     tar xzvf bibliohack_install.tar.gz
 
-ejecutar el script de instalación:
+ejecutar el script de instalación (**NO usar sudo**, el script pedirá credenciales de sudo cuando lo necesite):
 
     cd bibliohack_install
     bash install
 
-El script pedirá credenciales de sudo cuando lo necesite.
-
-Una vez finalizada la instalación, la carpeta `bibliohack_install` ya no es necesaria y se puede borrar. 
-Lo ideal es mantener una copia de esta carpeta en una Memoria USB.
+Una vez finalizada la instalación, la carpeta `bibliohack_install` ya no es necesaria y se puede borrar. Esta carpeta ha sido pensada para tenerla disponible en un pendrive USB y realizar las instalaciones desde alli en diferentes equipos que a veces no tienen conexión a internet.
 
 Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://codex.bibliohack.org/Bibliohack_instalador/>
+
+**El script no genera ningún icono de acceso en el menu de aplicaciones o en el escritorio**, se deben iniciar desde la consola o crear los lanzadores manualmente
 
 **Rutas de acceso a los programas**
 
@@ -38,7 +37,7 @@ Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://code
 - Pdfbeads: `/opt/bibliohack/components/pdfbeads-kopi/bin/pdfbeads` 
 - Tesseract: `tesseract`
 
-**Instalación de los componentes en forma manual**
+## Instalación de los componentes en forma manual
 
 * Scantailor en todas sus versiones: <http://codex.bibliohack.org/scan_tailor/>
 * Tesseract OCR: <http://codex.bibliohack.org/tesseract-ocr/>
@@ -51,13 +50,15 @@ Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://code
 En caso de haber borrado accidentalmente el directorio `/opt/bibliohack`, el script `install` no podrá
 volver a instalar las aplicaciones hasta que no se desinstalen del sistema las librerías **Tecgraf** 
 (y para desinstalar estas librerias son necesarios los scripts de desinstalción de Tecgraf que quedan 
-guardados en `/opt/bibliohack`)
+guardados en `/opt/bibliohack`!)
 
 `uninstall_tecgraf_libs` intenta desinstalar Tecgraf con los paquetes disponibles en el repositorio. 
-En caso de tener las librerías Tecgraf instaladas en el sistema instaladas manualmente o por otra aplicación, 
-en versiones diferentes, este script no podrá borralas y debe desinstalarlas a mano.
+En caso de tener las librerías Tecgraf ya instaladas en el sistema por otra aplicación (algo muy raro), 
+en versiones diferentes a las requeridas por el paquete de bibliohack, este script no podrá borralas y debe desinstalarlas a mano.
 
-## Generar el paquete de instalación
+## Compilar el paquete de instalación
+
+Este repositorio contiene todo el código fuente del stack de software. El paquete de instalación (`bibliohack_install.tar.gz`) se genera usando el script `.build_package`. Para clonar el repositorio es necesario tener instalado `git-lfs` en el sistema.
 
 Instalar *Git Large File Storage (LFS)* en el sistema. Más info en <https://git-lfs.github.com/>
 
