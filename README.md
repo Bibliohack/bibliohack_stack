@@ -17,16 +17,16 @@ descomprimir el archivo descargado:
 
     tar xzvf bibliohack_install.tar.gz
 
-ejecutar el script de instalación (**NO usar sudo**, el script pedirá credenciales de sudo cuando lo necesite):
+ejecutar el script de instalación (**NO usar sudo**, el script pedirá credenciales de `sudo` cuando lo necesite):
 
     cd bibliohack_install
     bash install
 
-Una vez finalizada la instalación, la carpeta `bibliohack_install` ya no es necesaria y se puede borrar. Esta carpeta ha sido pensada para tenerla disponible en un pendrive USB y realizar las instalaciones desde alli en diferentes equipos que a veces no tienen conexión a internet.
+Una vez finalizada la instalación, la carpeta `bibliohack_install` ya no es necesaria y se puede borrar. Esta carpeta ha sido pensada para tenerla disponible en un pendrive USB y realizar las instalaciones desde allí en diferentes equipos que a veces no tienen conexión a internet.
 
 Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://codex.bibliohack.org/Bibliohack_instalador/>
 
-**El script no genera ningún icono de acceso en el menu de aplicaciones o en el escritorio**, se deben iniciar desde la consola o crear los lanzadores manualmente
+**El script no genera ningún icono de acceso en el menú de aplicaciones o en el escritorio**, se deben iniciar desde la consola o crear los lanzadores manualmente
 
 **Rutas de acceso a los programas**
 
@@ -41,20 +41,20 @@ Más detalles de la instalación de Ubuntu 18.04 "Bionic Beaver" en <http://code
 
 * Scantailor en todas sus versiones: <http://codex.bibliohack.org/scan_tailor/>
 * Tesseract OCR: <http://codex.bibliohack.org/tesseract-ocr/>
-* PDFbeads: <http://codex.bibliohack.org/pdfbeads/> (`pdfbeads-kopi` <https://github.com/Bibliohack/pdfbeads-kopi> es un fork de pdfbeads que se instala en las ultimas versiones de Ubuntu/Debian)
+* PDFbeads: <http://codex.bibliohack.org/pdfbeads/> (`pdfbeads-kopi` <https://github.com/Bibliohack/pdfbeads-kopi> es un fork de pdfbeads que se instala en las últimas versiones de Ubuntu/Debian)
 * CHDKPTP: <http://codex.bibliohack.org/chdkptp/> (extensión Picture Transfer Protocol para Canon Hack Development Kit <https://app.assembla.com/wiki/show/chdkptp>)
 * CHDK: recursos para la instalación de CHDK <http://codex.bibliohack.org/CHDK/>
 
-## Problemas con librerias Tecgraf
+## Problemas con librerías Tecgraf
 
 En caso de haber borrado accidentalmente el directorio `/opt/bibliohack`, el script `install` no podrá
 volver a instalar las aplicaciones hasta que no se desinstalen del sistema las librerías **Tecgraf** 
-(y para desinstalar estas librerias son necesarios los scripts de desinstalción de Tecgraf que quedan 
+(y para desinstalar estas librerías son necesarios los scripts de desinstalción de Tecgraf que quedan 
 guardados en `/opt/bibliohack`!)
 
 `uninstall_tecgraf_libs` intenta desinstalar Tecgraf con los paquetes disponibles en el repositorio. 
 En caso de tener las librerías Tecgraf ya instaladas en el sistema por otra aplicación (algo muy raro), 
-en versiones diferentes a las requeridas por el paquete de bibliohack, este script no podrá borralas y debe desinstalarlas a mano.
+en versiones diferentes a las requeridas por el paquete de bibliohack, este script no podrá borrarlas y debe desinstalarlas a mano.
 
 ## Compilar el paquete de instalación
 
