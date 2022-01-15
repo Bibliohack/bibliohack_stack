@@ -36,7 +36,7 @@ else
 fi
 
 "$BIBLIOHACK_DIR/bibliohack_installer/install_bibliohack-ubuntu1804.sh" "$BIBLIOHACK_ORIG" || { 
-	echo "No se puedo ejecutar el instalador"
+	echo "No se puede ejecutar el instalador"
 	exit 1
 }
 exit 0
